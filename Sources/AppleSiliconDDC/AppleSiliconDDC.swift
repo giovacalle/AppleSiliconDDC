@@ -4,7 +4,7 @@ import AppleSiliconDDCObjC
 import Foundation
 import IOKit
 
-let ARM64_DDC_7BIT_ADDRESS: UInt8 = 0x37 // This works with DisplayPort devices
+public let ARM64_DDC_7BIT_ADDRESS: UInt8 = 0x37 // This works with DisplayPort devices
 let ARM64_DDC_DATA_ADDRESS: UInt8 = 0x51
 
 public class AppleSiliconDDC: NSObject {
